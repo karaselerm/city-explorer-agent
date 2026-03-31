@@ -15,6 +15,7 @@ flowchart LR
 
     Output --> Logs
     Output --> Memory
+```
 
 Что хранится
 | Данные      | Где           |

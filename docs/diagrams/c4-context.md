@@ -15,5 +15,6 @@ flowchart LR
     System --> Routing
     System --> LLM
     System --> Logs
+```
 
 Граница: пользователь взаимодействует только с агентом, все API скрыты.

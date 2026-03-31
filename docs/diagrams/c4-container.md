@@ -17,6 +17,7 @@ flowchart TB
 
     ORCH --> DB[(Memory / Storage)]
     ORCH --> LOGS[(Observability)]
+```
 
 Контейнеры:
 
