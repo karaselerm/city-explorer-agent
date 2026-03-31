@@ -1,3 +1,4 @@
+```markdown
 # C4 — Component (ядро агента)
 
 ```mermaid
