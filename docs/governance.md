@@ -1,7 +1,3 @@
-
----
-
-```markdown
 # Product Proposal — CityExplorer Agent (PoC)
 
 ## 1) Обоснование идеи (прикладная задача)
@@ -127,3 +123,5 @@ Route Builder ──→ Ordered Stops + Distance/ETA
 Renderer/Exporter ──→ Plan + Links + Files
    ↓
 State/Memory updated (prefs, ratings, favorites)
+
+```
