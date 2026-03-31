@@ -1,4 +1,3 @@
-```markdown
 # C4 — Component (ядро агента)
 
 ```mermaid
@@ -26,5 +25,6 @@ flowchart TB
 
     ROUTE --> STATE
     STATE --> OUTPUT
+```
 
 Идея: LLM управляет логикой, tools делают вычисления.
