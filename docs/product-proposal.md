@@ -1,7 +1,3 @@
-
----
-
-```markdown
 # Product Proposal — CityExplorer Agent (PoC)
 
 ## 1) Обоснование идеи (прикладная задача)
