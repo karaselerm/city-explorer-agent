@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityExplorer Demo — Интерактив</title>
+    <link rel="stylesheet" href="./viewer.css" />
+    <link rel="stylesheet" href="./playground.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <p><a href="./">← К списку примеров</a></p>
+      <h1>Интерактивная демо-песочница</h1>
+      <p>Здесь можно покликать параметры и посмотреть, как меняется витрина маршрута.</p>
+
+      <section class="card controls">
+        <h2>Параметры</h2>
+        <div class="controls-grid">
+          <label>
+            Город (сценарий)
+            <select id="city-select">
+              <option value="berlin-live">Берлин</option>
+              <option value="ulan-ude">Улан-Удэ</option>
+              <option value="leningrad-rename">Leningrad -> Saint Petersburg</option>
+            </select>
+          </label>
+
+          <label>
+            Стиль
+            <select id="style-select">
+              <option value="balanced">Сбалансированный</option>
+              <option value="culture">Культура</option>
+              <option value="nature">Природа</option>
+            </select>
+          </label>
+
+          <label>
+            Транспорт
+            <select id="transport-select">
+              <option value="walk">Пешком</option>
+              <option value="bike">Велосипед</option>
+              <option value="car">Машина</option>
+              <option value="transit">Общественный транспорт</option>
+            </select>
+          </label>
+
+          <label>
+            Бюджет
+            <select id="budget-select">
+              <option value="low">Низкий</option>
+              <option value="medium" selected>Средний</option>
+              <option value="high">Высокий</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="chips-box">
+          <h3>Обязательные категории</h3>
+          <div id="must-chips" class="chips"></div>
+        </div>
+
+        <div class="chips-box">
+          <h3>Исключить категории</h3>
+          <div id="avoid-chips" class="chips"></div>
+        </div>
+
+        <p class="hint">Это статическая демо-страница: кнопки меняют отображение примера, без реального запроса к API.</p>
+      </section>
+
+      <section class="card">
+        <h2 id="title">Загрузка...</h2>
+        <div id="request"></div>
+      </section>
+
+      <section class="card">
+        <h2>Сводка</h2>
+        <div id="summary"></div>
+      </section>
+
+      <section class="card">
+        <h2>Предупреждения</h2>
+        <div id="warnings"></div>
+      </section>
+
+      <section class="card">
+        <h2>Маршрут</h2>
+        <div id="stops"></div>
+      </section>
+
+      <p id="status"></p>
+    </main>
+
+    <script src="./playground.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+.controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+label {
+  display: grid;
+  gap: 5px;
+  color: #59656a;
+  font-size: 14px;
+}
+
+select {
+  padding: 8px 10px;
+  border: 1px solid #d8d1c2;
+  border-radius: 10px;
+  background: #fff;
+  font: inherit;
+}
+
+.chips-box {
+  margin-top: 12px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #d8d1c2;
+  border-radius: 999px;
+  padding: 4px 9px;
+  background: #fff;
+  font-size: 13px;
+  color: #59656a;
+}
+
+.hint {
+  margin-top: 10px;
+  font-size: 13px;
+}

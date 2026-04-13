@@ -2,6 +2,15 @@
 
 PoC агентной системы для построения прогулочных маршрутов по городу (2-4 часа) с учетом ограничений пользователя, fallback-логики и наблюдаемости.
 
+## Для ментора (быстрый вход)
+
+Если хотите сразу посмотреть демо без запуска контейнеров, откройте:
+
+- Витрина: [https://karaselerm.github.io/city-explorer-agent/demo/](https://karaselerm.github.io/city-explorer-agent/demo/)
+- Интерактивная песочница: [https://karaselerm.github.io/city-explorer-agent/demo/playground.html](https://karaselerm.github.io/city-explorer-agent/demo/playground.html)
+
+Это статические HTML-страницы на GitHub Pages, они доступны без локального запуска проекта.
+
 ## Что уже реализовано
 
 - агентный orchestration pipeline: `retrieve -> rank -> route -> explain -> export -> memory`;
@@ -111,14 +120,14 @@ ngrok http 8010
 
 1. Включить GitHub Pages для репозитория:
 - `Settings -> Pages -> Build and deployment`
-- `Source: Deploy from a branch`
-- `Branch: main`, `Folder: /docs`
+- `Source: GitHub Actions`
 2. Открыть витрину:
-- `https://<your-username>.github.io/<repo-name>/demo/`
+- `https://karaselerm.github.io/city-explorer-agent/demo/`
 
 В репозитории уже лежат готовые страницы:
 - `docs/demo/berlin-live.html`
 - `docs/demo/ulan-ude.html`
+- `docs/demo/playground.html` (интерактивная песочница с переключателями стиля/транспорта/категорий)
 
 ## Структура репозитория
 
