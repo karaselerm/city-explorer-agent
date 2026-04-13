@@ -112,9 +112,9 @@ function filterStops(stops, must, avoid) {
 }
 
 function recomputeSummary(plan, shownStops) {
-  const distance = shownStops.reduce((acc, s) => acc + Number(s.distance_km_from_prev || 0), 0);
-  const eta = shownStops.reduce((acc, s) => acc + Number(s.eta_minutes_from_prev || 0), 0);
-  const dwell = shownStops.reduce((acc, s) => acc + Number(s.dwell_minutes || 0), 0);
+  const distance = shownStops.reduce((acc, s) => acc + Number(s.distance_km_from_prev ?? s.distance_km ?? 0), 0);
+  const eta = shownStops.reduce((acc, s) => acc + Number(s.eta_minutes_from_prev ?? s.eta_min ?? 0), 0);
+  const dwell = shownStops.reduce((acc, s) => acc + Number(s.dwell_minutes ?? s.dwell_min ?? 0), 0);
   return {
     city: plan.city || "—",
     distance: distance.toFixed(2),
@@ -141,8 +141,8 @@ function renderStops(stops) {
       <article class="stop">
         <h3>${i + 1}. ${s.name}</h3>
         <p>Категория: ${categoryLabel(s.category)}</p>
-        <p>Переход: ${Number(s.distance_km_from_prev || 0).toFixed(2)} км / ${s.eta_minutes_from_prev || 0} мин</p>
-        <p>Остановка: ${s.dwell_minutes || 0} мин</p>
+        <p>Переход: ${Number(s.distance_km_from_prev ?? s.distance_km ?? 0).toFixed(2)} км / ${s.eta_minutes_from_prev ?? s.eta_min ?? 0} мин</p>
+        <p>Остановка: ${s.dwell_minutes ?? s.dwell_min ?? 0} мин</p>
         ${s.travel_instruction ? `<p>${s.travel_instruction}</p>` : ""}
         <p>${s.segment_map_url ? `<a href="${s.segment_map_url}" target="_blank" rel="noreferrer">Как доехать</a>` : ""}</p>
       </article>`
