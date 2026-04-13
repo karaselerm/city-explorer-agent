@@ -34,9 +34,9 @@ PoC агентной системы для построения прогулоч
 - System Design: [docs/system-design.md](docs/system-design.md)
 - Governance: [docs/governance.md](docs/governance.md)
 
-## Быстрый старт (готово для асинхронной проверки)
+## Быстрый старт
 
-### Вариант A: Docker Compose (рекомендуется)
+### Вариант A: Docker Compose
 
 ```bash
 cd city-explorer-agent
@@ -86,48 +86,6 @@ python3 run_city_explorer.py \
 ```bash
 uv run pytest
 ```
-
-## Деплой (роскошный максимум)
-
-### Быстрый публичный URL через tunnel (самый быстрый путь перед защитой)
-
-После `docker compose up --build`:
-
-```bash
-cloudflared tunnel --url http://localhost:8010
-```
-
-или
-
-```bash
-ngrok http 8010
-```
-
-Это дает публичный URL, которым можно сразу делиться с ментором.
-
-### Постоянный деплой
-
-1. Запушить репозиторий на GitHub.
-2. Развернуть `Dockerfile.backend` как Web Service (Render/Railway/Fly).
-3. Проверить `GET /api/health`.
-4. Для UI есть два пути:
-- либо использовать тот же backend URL (backend уже отдает `web/frontend`);
-- либо отдельно поднять `Dockerfile.frontend` и проксировать `/api` на backend.
-
-### Статические HTML-примеры в GitHub Pages
-
-Если нужно просто показать результат без запуска контейнеров:
-
-1. Включить GitHub Pages для репозитория:
-- `Settings -> Pages -> Build and deployment`
-- `Source: GitHub Actions`
-2. Открыть витрину:
-- `https://karaselerm.github.io/city-explorer-agent/demo/`
-
-В репозитории уже лежат готовые страницы:
-- `docs/demo/berlin-live.html`
-- `docs/demo/ulan-ude.html`
-- `docs/demo/playground.html` (интерактивная песочница с переключателями стиля/транспорта/категорий)
 
 ## Структура репозитория
 
