@@ -26,11 +26,7 @@ const STYLE_PREFS = {
   nature: ["park", "beach", "viewpoint"],
 };
 
-const DATASET_PATHS = {
-  "berlin-live": "./data/berlin-live.json",
-  "ulan-ude": "./data/ulan-ude.json",
-  "leningrad-rename": "./data/leningrad-rename.json",
-};
+const SCENARIOS_FILE = "./data/playground-scenarios.json";
 
 const ALL_CATEGORIES = [
   "museum",
@@ -46,6 +42,7 @@ const ALL_CATEGORIES = [
 ];
 
 let currentDoc = null;
+let allScenarios = [];
 
 function byId(id) {
   return document.getElementById(id);
@@ -207,15 +204,22 @@ function renderPreview() {
   byId("status").textContent = "Параметры применены.";
 }
 
-async function loadScenario(slug) {
-  const path = DATASET_PATHS[slug];
-  if (!path) {
+function fillCitySelect() {
+  const select = byId("city-select");
+  select.innerHTML = allScenarios
+    .map((s, idx) => `<option value="${idx}">${s.title}</option>`)
+    .join("");
+}
+
+async function loadScenario(indexLike) {
+  const index = Number(indexLike);
+  const scenario = allScenarios[index];
+  if (!scenario) {
     byId("status").textContent = "Неизвестный сценарий.";
     return;
   }
   byId("status").textContent = "Загрузка сценария...";
-  const res = await fetch(path);
-  currentDoc = await res.json();
+  currentDoc = scenario;
   setDefaultsFromRequest(currentDoc.request || {});
   renderPreview();
 }
@@ -236,10 +240,18 @@ function bindEvents() {
 }
 
 async function bootstrap() {
+  byId("status").textContent = "Загрузка 100 сценариев...";
+  const res = await fetch(SCENARIOS_FILE);
+  allScenarios = await res.json();
+  if (!Array.isArray(allScenarios) || allScenarios.length === 0) {
+    throw new Error("файл сценариев пуст");
+  }
+
   renderCategoryChips("must-chips", "must_category");
   renderCategoryChips("avoid-chips", "avoid_category");
+  fillCitySelect();
   bindEvents();
-  await loadScenario(byId("city-select").value);
+  await loadScenario(0);
 }
 
 bootstrap().catch((err) => {
