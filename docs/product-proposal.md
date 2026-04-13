@@ -121,10 +121,9 @@ Filter & Rank ──→ Shortlist + Alternatives
 Route Builder ──→ Ordered Stops + Distance/ETA
    ↓
 Renderer/Exporter ──→ Plan + Links + Files
-```
    ↓
 State/Memory updated (prefs, ratings, favorites)
-=======
+```
 7. `Observability`
 - structured logs, latency/fallback counters.
 
