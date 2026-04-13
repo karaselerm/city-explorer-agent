@@ -124,8 +124,6 @@ Renderer/Exporter ──→ Plan + Links + Files
    ↓
 State/Memory updated (prefs, ratings, favorites)
 ```
-7. `Observability`
-- structured logs, latency/fallback counters.
 
 ## 6. Data flow и зона ответственности LLM/Agent
 
