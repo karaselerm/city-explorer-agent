@@ -92,9 +92,9 @@
   },
   {
     "id": "scenario-002",
-    "title": "Санкт-Петербург (Saint Petersburg)",
+    "title": "Ленинград (Leningrad)",
     "request": {
-      "city": "Saint Petersburg",
+      "city": "Leningrad",
       "duration_hours": 3.0,
       "max_distance_km": 4.6,
       "must_categories": [
@@ -116,9 +116,9 @@
       "plan": {
         "city": "Санкт-Петербург",
         "transport_mode": "car",
-        "map_overview_url": "https://www.google.com/maps/search/?api=1&query=Saint+Petersburg",
+        "map_overview_url": "https://www.google.com/maps/search/?api=1&query=Leningrad",
         "city_meta": {
-          "query": "Saint Petersburg",
+          "query": "Leningrad",
           "country": "demo",
           "canonical_name": "Санкт-Петербург",
           "suggestions": [
@@ -130,65 +130,65 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Санкт-Петербург",
+            "name": "Музей 1 — Ленинград",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
             "dwell_minutes": 40,
             "travel_instruction": "Езжайте на машине 0.69 км (~4 мин).",
-            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Музей+1+—+Санкт-Петербург",
+            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Музей+1+—+Ленинград",
             "wiki_url": ""
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Санкт-Петербург",
+            "name": "Галерея 2 — Ленинград",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
             "dwell_minutes": 50,
             "travel_instruction": "Езжайте на машине 0.91 км (~5 мин).",
-            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Галерея+2+—+Санкт-Петербург",
+            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Галерея+2+—+Ленинград",
             "wiki_url": ""
           },
           {
             "order": 3,
-            "name": "Театр 3 — Санкт-Петербург",
+            "name": "Театр 3 — Ленинград",
             "category": "theatre",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
             "dwell_minutes": 20,
             "travel_instruction": "Езжайте на машине 1.13 км (~6 мин).",
-            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Театр+3+—+Санкт-Петербург",
+            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Театр+3+—+Ленинград",
             "wiki_url": ""
           },
           {
             "order": 4,
-            "name": "Музей 4 — Санкт-Петербург",
+            "name": "Музей 4 — Ленинград",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
             "dwell_minutes": 30,
             "travel_instruction": "Езжайте на машине 0.25 км (~7 мин).",
-            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Музей+4+—+Санкт-Петербург",
+            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Музей+4+—+Ленинград",
             "wiki_url": ""
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Санкт-Петербург",
+            "name": "Галерея 5 — Ленинград",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
             "dwell_minutes": 40,
             "travel_instruction": "Езжайте на машине 0.47 км (~8 мин).",
-            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Галерея+5+—+Санкт-Петербург",
+            "segment_map_url": "https://www.google.com/maps/search/?api=1&query=Галерея+5+—+Ленинград",
             "wiki_url": ""
           }
         ],
         "alternatives": [],
         "warnings": [
-          "Для исторического запроса Leningrad система должна предлагать Saint Petersburg."
+          "Название 'Leningrad' устарело, использую актуальное: 'Saint Petersburg'"
         ],
-        "explanation": "Демо-конфигурация для города 'Санкт-Петербург': стиль 'nature', транспорт 'car', бюджет 'high'. Маршрут в песочнице пересчитывается локально без запроса к API."
+        "explanation": "Демо-конфигурация для города 'Ленинград': стиль 'nature', транспорт 'car', бюджет 'high'. Маршрут в песочнице пересчитывается локально без запроса к API."
       },
       "trace": [],
       "errors": []

@@ -26,7 +26,7 @@ const STYLE_PREFS = {
   nature: ["park", "beach", "viewpoint"],
 };
 
-const SCENARIOS_FILE = "./data/playground-scenarios.json";
+const SCENARIOS_FILE = "./data/playground-scenarios.json?v=20260414-2";
 
 const ALL_CATEGORIES = [
   "museum",
@@ -242,7 +242,14 @@ function bindEvents() {
 async function bootstrap() {
   byId("status").textContent = "Загрузка 100 сценариев...";
   const res = await fetch(SCENARIOS_FILE);
-  allScenarios = await res.json();
+  if (!res.ok) {
+    throw new Error(`не удалось загрузить файл сценариев (${res.status})`);
+  }
+  const text = await res.text();
+  if (text.trim().startsWith("<!DOCTYPE") || text.trim().startsWith("<html")) {
+    throw new Error("вместо JSON получен HTML. Обычно это означает, что Pages еще не обновился.");
+  }
+  allScenarios = JSON.parse(text);
   if (!Array.isArray(allScenarios) || allScenarios.length === 0) {
     throw new Error("файл сценариев пуст");
   }
