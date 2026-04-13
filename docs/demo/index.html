@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityExplorer Agent — Примеры</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        background: #f4efe4;
+        color: #1f2a2c;
+      }
+      .wrap {
+        max-width: 1000px;
+        margin: 32px auto;
+        padding: 0 16px 20px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 12px;
+      }
+      .card {
+        background: #fffdf8;
+        border: 1px solid #d8d1c2;
+        border-radius: 12px;
+        padding: 14px;
+      }
+      a {
+        color: #045a5a;
+        font-weight: 700;
+      }
+      h1 {
+        margin: 0 0 8px;
+      }
+      p {
+        margin: 0 0 6px;
+        color: #59656a;
+      }
+      .top-link {
+        margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Готовые HTML-примеры маршрутов</h1>
+      <p>Открываются как статические страницы, без запуска backend/frontend.</p>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Берлин</h2>
+          <p>Пример живого маршрута с картографическими ссылками.</p>
+          <a href="./berlin-live.html">Открыть пример</a>
+        </article>
+        <article class="card">
+          <h2>Улан-Удэ</h2>
+          <p>Пример маршрута по российскому городу с несколькими остановками.</p>
+          <a href="./ulan-ude.html">Открыть пример</a>
+        </article>
+      </section>
+
+      <p class="top-link"><a href="../">Назад к индексу docs</a></p>
+    </main>
+  </body>
+</html>

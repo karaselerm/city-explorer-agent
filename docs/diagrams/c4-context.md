@@ -1,20 +1,23 @@
-# C4 — Context
+# C4 Context
 
 ```mermaid
 flowchart LR
-    User[Пользователь]
-    System[CityExplorer Agent]
+    User["User / Traveler"]
+    System["CityExplorer Agent PoC"]
 
-    OSM[(OpenStreetMap / Overpass)]
-    Routing[(Routing API)]
-    LLM[(LLM API)]
-    Logs[(Observability)]
+    OSM[("OpenStreetMap Overpass API")]
+    LLM[("LLM Provider (optional)")]
+    Storage[("SQLite Memory")]
+    Observability[("Logs + Metrics")]
 
-    User --> System
-    System --> OSM
-    System --> Routing
-    System --> LLM
-    System --> Logs
+    User -->|"route request"| System
+    System -->|"POI query"| OSM
+    System -->|"planning/explanation"| LLM
+    System -->|"read/write profile and history"| Storage
+    System -->|"events/traces"| Observability
 ```
 
-Граница: пользователь взаимодействует только с агентом, все API скрыты.
+Границы:
+- пользователь взаимодействует только с CityExplorer;
+- внешние API рассматриваются как недоверенные источники;
+- side effects ограничены локальным экспортом и локальным storage.

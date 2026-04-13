@@ -1,0 +1,23 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app/src
+ENV CITY_EXPLORER_HOST=0.0.0.0
+ENV CITY_EXPLORER_PORT=8000
+
+COPY src ./src
+COPY web ./web
+COPY data ./data
+COPY run_api_server.py ./run_api_server.py
+COPY run_city_explorer.py ./run_city_explorer.py
+
+RUN mkdir -p outputs runtime logs
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=15s --timeout=3s --retries=5 CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=2)"
+
+CMD ["python", "run_api_server.py"]

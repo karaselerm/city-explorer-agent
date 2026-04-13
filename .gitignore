@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+.uv-cache/
+*.pyc
+*.egg-info/
+outputs/*.json
+outputs/*.md
+outputs/*.ics
+runtime/
+logs/
+*.db

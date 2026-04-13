@@ -1,67 +1,143 @@
-# CityExplorer Agent — агент для маршрутов по городу (PoC)
+# CityExplorer Agent (PoC)
 
-PoC агентной системы, которая **находит интересные места в городе**, **строит маршрут на 2–4 часа** с учётом предпочтений пользователя и **экспортирует план** (список + карта/ссылки).
+PoC агентной системы для построения прогулочных маршрутов по городу (2-4 часа) с учетом ограничений пользователя, fallback-логики и наблюдаемости.
 
-## 1) Что за задача, для кого и какая боль
+## Что уже реализовано
 
-### Пользователь
-- турист/новичок в городе
-- местный житель, которому надо “быстро придумать прогулку”
-- студент/команда, которым нужен план на вечер/выходной
+- агентный orchestration pipeline: `retrieve -> rank -> route -> explain -> export -> memory`;
+- внешний KB и tools: Overpass API + локальный fallback dataset;
+- поддержка **любого города** через гео-резолвер (Nominatim) + проверка актуального названия;
+- обработка исторических названий (например, `Leningrad` -> `Saint Petersburg`) с явным предупреждением;
+- state/memory: SQLite-профиль и история маршрутов;
+- guardrails: валидация входа, anti-injection маркеры, подтверждение side effects (`.ics`);
+- observability: `logs/events.jsonl`, trace шагов, счетчики ошибок/fallback;
+- web backend API + web frontend UI + docker-compose запуск;
+- режимы перемещения: `walk`, `bike`, `car`, `transit` (влияют на ETA и подсказки сегментов);
+- маршрут на карте + ссылки "как доехать" по каждому сегменту;
+- карточки мест с фото и коротким описанием (через enrichment/fallback-data);
+- CLI режим для demo/debug.
 
-### Боль сейчас
-- места и идеи разбросаны по картам/блогам, тяжело собрать **логичный маршрут** по времени/дистанции
-- сложно учесть ограничения: “пешком”, “дёшево”, “без толп”, “только музеи”, “с кофе”
-- при поиске легко залипнуть: много вариантов, мало структуры, нет плана B
+## Архитектура (коротко)
 
-## 2) Что именно сделает PoC на демо
+- Backend API: [web/backend/server.py](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/web/backend/server.py)
+- Frontend UI: [web/frontend/index.html](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/web/frontend/index.html)
+- Orchestrator: [src/city_explorer/orchestrator.py](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/src/city_explorer/orchestrator.py)
+- System Design: [docs/system-design.md](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/docs/system-design.md)
+- Governance: [docs/governance.md](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/docs/governance.md)
 
-### Демонстрационный сценарий (пример)
-Пользователь вводит:
-- город/район (например: “Рига, центр”)
-- длительность: 3 часа
-- стиль: “пешком, спокойно, дешево, 1 кофе, 1 музей, 1 парк”
-- ограничения: “без баров”, “не больше 6 км”
+## Быстрый старт (готово для асинхронной проверки)
 
-PoC делает:
-1) **Собирает POI** через OpenStreetMap (Overpass API) по категориям (музеи/парки/кафе/видовые точки).
-2) **Фильтрует и ранжирует** места под предпочтения (тише/дешевле/пешком/тематика).
-3) **Собирает связный маршрут** (оптимизация по времени и дистанции) + план остановок.
-4) **Показывает объяснение**: почему выбраны места и почему такой порядок (с источниками/тегами).
-5) **Экспортирует**:
-   - список остановок (Markdown/JSON)
-   - ссылки на карту (например, geo / OSM link)
-   - опционально: `.ics` (календарь) — только после подтверждения
+### Вариант A: Docker Compose (рекомендуется)
 
-## 3) Что НЕ делает PoC (out-of-scope)
+```bash
+cd "/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent"
+docker compose up --build
+```
 
-- не покупает билеты, не бронирует столики, не делает платежи
-- не гарантирует актуальность “открыто/закрыто прямо сейчас” (если нет данных)
-- не использует персональную точную геолокацию пользователя и не хранит её
-- не обещает “самый лучший маршрут в мире”: цель PoC — **качественная сборка маршрута** и корректная агентная логика
+После старта:
+- Frontend UI: `http://localhost:8010`
+- Backend API health: `http://localhost:8011/api/health`
 
-## 4) Почему это агентная система, а не “просто чат”
+Остановка:
 
-PoC включает несколько модулей и интеграций:
-- **External Knowledge Base (KB):**
-  - OpenStreetMap POI (Overpass API)
-  - локальная “policy база” (правила категорий, фильтры, шаблоны маршрутов)
-  - опционально: enrichment (Wikidata/вики-сниппеты) — *можно как расширение*
-- **Tools & API:**
-  - поиск POI (Overpass)
-  - построение маршрута между точками (routing API / локальный модуль)
-  - экспорт результата (файл/ics/markdown)
-- **State & Memory (сквозные):**
-  - предпочтения пользователя, история “понравилось/не понравилось”
-  - избранные места
-  - контекст сессии: цель прогулки, лимиты времени/дистанции, выбранные категории
+```bash
+docker compose down
+```
 
-## 5) Репозиторий (структура)
+### Вариант B: без Docker
+
+1. Backend + встроенная веб-страница (один процесс):
+
+```bash
+CITY_EXPLORER_PORT=8011 python3 run_api_server.py
+```
+
+2. Открыть в браузере:
+- `http://localhost:8011`
+
+## CLI demo (дополнительно)
+
+```bash
+python3 run_city_explorer.py \
+  --user-id demo_user \
+  --city "Leningrad" \
+  --duration-hours 3 \
+  --max-distance-km 6 \
+  --must-category museum \
+  --must-category park \
+  --must-category cafe \
+  --transport-mode transit \
+  --budget low \
+  --quiet \
+  --style culture
+```
+
+## Тесты
+
+```bash
+uv run pytest
+```
+
+## Деплой (роскошный максимум)
+
+### Быстрый публичный URL через tunnel (самый быстрый путь перед защитой)
+
+После `docker compose up --build`:
+
+```bash
+cloudflared tunnel --url http://localhost:8010
+```
+
+или
+
+```bash
+ngrok http 8010
+```
+
+Это дает публичный URL, которым можно сразу делиться с ментором.
+
+### Постоянный деплой
+
+1. Запушить репозиторий на GitHub.
+2. Развернуть `Dockerfile.backend` как Web Service (Render/Railway/Fly).
+3. Проверить `GET /api/health`.
+4. Для UI есть два пути:
+- либо использовать тот же backend URL (backend уже отдает `web/frontend`);
+- либо отдельно поднять `Dockerfile.frontend` и проксировать `/api` на backend.
+
+### Статические HTML-примеры в GitHub Pages
+
+Если нужно просто показать результат без запуска контейнеров:
+
+1. Включить GitHub Pages для репозитория:
+- `Settings -> Pages -> Build and deployment`
+- `Source: Deploy from a branch`
+- `Branch: main`, `Folder: /docs`
+2. Открыть витрину:
+- `https://<your-username>.github.io/<repo-name>/demo/`
+
+В репозитории уже лежат готовые страницы:
+- `docs/demo/berlin-live.html`
+- `docs/demo/ulan-ude.html`
+
+## Структура репозитория
 
 ```text
 .
-├── README.md
-├── docs/
-│   ├── product-proposal.md
-│   └── governance.md
-└── (src/ появится после Milestone 1)
+├── docker-compose.yml
+├── Dockerfile.backend
+├── Dockerfile.frontend
+├── run_api_server.py
+├── run_city_explorer.py
+├── web/
+│   ├── backend/server.py
+│   └── frontend/
+│       ├── index.html
+│       ├── styles.css
+│       ├── app.js
+│       └── nginx.conf
+├── src/city_explorer/
+├── data/
+├── tests/
+└── docs/
+```

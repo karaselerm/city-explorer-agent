@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background: #f4efe4;
+  color: #1f2a2c;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 28px auto;
+  padding: 0 16px 20px;
+}
+
+.card {
+  background: #fffdf8;
+  border: 1px solid #d8d1c2;
+  border-radius: 12px;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 4px 0;
+  color: #59656a;
+}
+
+ul {
+  margin: 8px 0 0 18px;
+  color: #59656a;
+}
+
+a {
+  color: #045a5a;
+  font-weight: 700;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 8px;
+}
+
+.pill {
+  display: inline-block;
+  border: 1px solid #d8d1c2;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 13px;
+  color: #59656a;
+  background: #fff;
+}
+
+.stop {
+  border-top: 1px dashed #d8d1c2;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.warn {
+  color: #8a2d2d;
+}

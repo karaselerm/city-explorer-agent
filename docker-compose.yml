@@ -1,0 +1,24 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: city-explorer-backend
+    restart: unless-stopped
+    ports:
+      - "8011:8000"
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./runtime:/app/runtime
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: city-explorer-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "8010:80"

@@ -1,12 +1,12 @@
-# Specs
+# Module Specs
 
-Технические контракты модулей.
+Короткие технические спецификации модулей PoC.
 
-| Файл | Назначение |
-|------|-----------|
-| retriever.md | поиск POI |
-| tools-apis.md | API |
-| memory-context.md | state |
-| agent-orchestrator.md | логика агента |
-| serving-config.md | запуск |
-| observability-evals.md | метрики |
+| Файл | Содержимое |
+|---|---|
+| `agent.md` | Orchestrator: шаги, переходы, stop/retry/fallback |
+| `retriever.md` | Источники, схема POI, кэш, ограничения |
+| `tools.md` | Контракты инструментов и ошибки |
+| `memory.md` | Session/persistent state, policy хранения |
+| `serving.md` | Запуск, конфигурация, версии и секреты |
+| `observability.md` | Логи, метрики, eval checks |

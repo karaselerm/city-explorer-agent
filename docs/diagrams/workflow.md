@@ -1,21 +1,29 @@
-# Workflow
+# Workflow / Execution Graph
 
 ```mermaid
 flowchart TD
-    A[User Query] --> B[Parse Intent]
+    A["Receive request"] --> B["Safety validation"]
+    B -->|fail| B1["Reject with reason"]
+    B -->|pass| C["Load user memory"]
 
-    B --> C[Retrieve POI]
-    C -->|timeout| C2[Retry smaller query]
+    C --> D["Retrieve POI (Overpass)"]
+    D -->|timeout/error| D1["Fallback: cache/sample"]
+    D1 --> E["Filter + Rank"]
+    D -->|success| E
 
-    C --> D[Filter POI]
-    D -->|empty| D2[Relax constraints]
+    E -->|0 candidates| E1["Relax filters + retry retrieval"]
+    E1 --> E2["If still empty -> fail with message"]
+    E -->|candidates>0| F["Build route"]
 
-    D --> E[Build Route]
-    E -->|fail| E2[Heuristic route]
+    F -->|exception| F1["Fallback route: static top-N"]
+    F -->|ok| G["Compose explanation"]
+    F1 --> G
 
-    E --> F[Generate Response]
-    F --> G[Output]
-
+    G --> H["Persist memory + append history"]
+    H --> I["Export artifacts"]
+    I --> J["Return response + trace"]
 ```
 
-Важно: система всегда возвращает результат.
+Гарантия PoC:
+- система стремится вернуть полезный результат даже при деградации внешних зависимостей;
+- hard fail происходит только при нарушении safety или полном отсутствии данных после fallback.

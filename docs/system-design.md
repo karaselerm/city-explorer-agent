@@ -2,143 +2,152 @@
 
 ## 1. Ключевые архитектурные решения
 
-- Агентная оркестрация (LLM + вызовы инструментов)
-- Pipeline с приоритетом retrieval (OSM → фильтрация → маршрут → ответ)
-- Stateless execution + лёгкая персистентная память (SQLite / JSON)
-- Чёткое разделение ответственности:
-  - LLM → логика, планирование, объяснение
-  - Tools → детерминированные вычисления
-- Fail-fast + fallback стратегия (частичный маршрут при ошибках)
----
+1. Агентная оркестрация через фиксированный execution graph:
+- `safety -> memory_load -> retrieve -> rank -> route -> explain -> export -> memory_update`.
 
-## 2. Основные модули
+2. Разделение deterministic и agentic частей:
+- агент решает порядок шагов и fallback-переходы;
+- tools выполняют детерминированные операции и валидации.
 
-### 1. Orchestrator Agent
-- принимает запрос
-- нормализует intent
-- планирует шаги (planner)
-- вызывает tools
-- собирает финальный ответ
+3. Надежность через graceful degradation:
+- live retrieval (Overpass) -> cache -> sample dataset;
+- route fallback при ошибке оптимизации;
+- частичный ответ вместо hard fail.
 
-### 2. POI Retriever (Overpass)
-- получает POI по bbox / area
-- нормализует данные
+4. Наблюдаемость по умолчанию:
+- structured logs (jsonl), trace шагов, счетчики ошибок/таймаутов.
 
-### 3. Ranker / Filter
-- фильтрация по категориям и ограничениям
-- ранжирование (rule-based + optional LLM)
+## 2. Состав модулей и роли
 
-### 4. Route Builder
-- строит порядок точек
-- проверяет ограничения (distance/time)
+- `CLI/API layer`: принимает запрос и возвращает артефакты.
+- `Orchestrator`: управляет state-machine, retry/fallback, stop conditions.
+- `Retriever`: получает POI из Overpass, нормализует и кэширует.
+- `Ranker`: фильтрует/оценивает кандидатов.
+- `RouteBuilder`: строит последовательность остановок и проверяет constraints.
+- `Exporter`: формирует markdown/json/ics.
+- `MemoryStore`: хранит профиль и историю маршрутов в SQLite.
+- `SafetyGuard`: anti-injection и side-effect подтверждения.
+- `EventLogger`: логи и базовые метрики reliability.
 
-### 5. Renderer
-- формирует ответ
-- добавляет объяснение
-- экспорт
+## 3. Основной workflow
 
-### 6. Memory Layer
-- user preferences
-- session state
+1. `Input validation`: проверка запроса и guardrails.
+2. `Load memory`: загрузка предпочтений пользователя.
+3. `Retrieve`: запрос к Overpass.
+4. `Retrieve fallback`: при ошибке/timeout -> кэш или sample dataset.
+5. `Filter + rank`: удаление avoid, scoring must/preferences.
+6. `Route build`: nearest-neighbor эвристика с лимитами дистанции/времени.
+7. `Fallback route`: top-N порядок при ошибке route builder.
+8. `Explain`: объяснение выбора и предупреждения.
+9. `Persist`: запись профиля/истории, логирование trace.
+10. `Export`: сохранение в `outputs/`.
 
-### 7. Observability
-- логи
-- метрики
-- ошибки
+Stop conditions:
+- успешная сборка маршрута;
+- safety validation fail;
+- empty ranked list после fallback.
 
----
+## 4. State / Memory / Context Handling
 
-## 3. Workflow выполнения
+### Session state (in-flight)
 
-1. User → запрос
-2. Agent → parse intent
-3. Retriever → fetch POI
-4. Filter → shortlist
-5. Route builder → ordered route
-6. Agent → explanation
-7. Renderer → output
-
----
-
-## 4. State / Memory
-
-### Session state
-- цель маршрута
-- ограничения (время, дистанция)
-- выбранные POI
+- request_id;
+- constraints (duration, distance, must/avoid);
+- candidate and ranked POI lists;
+- trace шагов и ошибки.
 
 ### Persistent memory
-- предпочтения пользователя
-- избранные места
 
-### Memory policy
-- без хранения PII
-- TTL для логов: 7–14 дней
+- `user_profiles`:
+  - preferred categories,
+  - last_city,
+  - last_budget,
+  - updated_at.
+- `route_history`:
+  - city,
+  - stops summary,
+  - warnings,
+  - created_at.
 
----
+### Context budget policy
+
+- в runtime-контекст входят только структурированные поля;
+- полные сырые ответы Overpass не сохраняются в memory;
+- логи содержат технические поля, без чувствительных персональных данных.
 
 ## 5. Retrieval-контур
 
 Источник:
-- OpenStreetMap (Overpass API)
+- OpenStreetMap Overpass API (`POST /api/interpreter`).
 
-Pipeline:
-1. Query → bbox / area
-2. Fetch → raw OSM
-3. Normalize → schema
-4. Filter → by tags
-5. Rank → heuristic
+Конвейер:
+1. Build query по city bounds и категориям.
+2. Fetch с timeout=12s.
+3. Normalize к `POI` схеме.
+4. Cache by `(city, categories)` с TTL 30 мин.
+5. Fallback:
+- cache -> local sample dataset.
 
 Ограничения:
-- max 100 POI
-- timeout 25s
+- максимум 100 кандидатов;
+- только разрешенные категории;
+- unknown city -> sample fallback.
 
----
+## 6. Tool/API интеграции
 
-## 6. Tools / API интеграции
+### Overpass Retriever
 
-### Overpass API
-- input: bbox / query
-- output: POI list
+- Input: `city`, `categories`, `limit`.
+- Output: `list[POI]`.
+- Errors: timeout, network, invalid json, unknown city.
+- Side effects: обновление локального кэша.
 
-### Routing (optional)
-- input: coordinates
-- output: distance / ETA
+### Route Builder
 
-### Export tool
-- JSON / Markdown / ICS
+- Input: ranked candidates + constraints.
+- Output: ordered stops + ETA + distance.
+- Errors: empty candidates, unknown city.
+- Side effects: нет.
 
----
+### Export Tool
 
-## 7. Failure modes + fallback
+- Input: route plan + format.
+- Output: файл в `outputs/`.
+- Side effects: запись в файловую систему.
+- Guardrail: `.ics` только после подтверждения.
 
-| Ошибка | Действие |
-|------|--------|
-| Overpass timeout | retry → fallback smaller query |
-| нет POI | ослабить фильтры |
-| routing fail | heuristic ordering |
-| слишком длинный маршрут | обрезать |
+## 7. Failure modes, fallback, guardrails
 
----
+| Failure mode | Detect | Fallback |
+|---|---|---|
+| Overpass timeout/network fail | retriever error | cache/sample mode |
+| мало кандидатов | `candidate_count < threshold` | relax constraints (default categories) |
+| route build exception | caught exception | static top-3 fallback route |
+| конфликт constraints | evaluator на этапе route | partial route + warning |
+| injection markers | safety validation | hard reject запроса |
 
-## 8. Guardrails
+Guardrails:
+- deny-list инъекций;
+- лимит stop count;
+- подтверждение side-effects;
+- untrusted external data policy.
 
-- все внешние данные = untrusted
-- LLM не вызывает tools напрямую
-- лимит шагов агента
-- подтверждение для side effects
+## 8. Ограничения (SLO/SLA PoC)
 
----
+- `p95 e2e latency <= 30s`;
+- `p95 retriever latency <= 12s`;
+- `tool error rate <= 10%`;
+- `fallback success rate >= 95%`;
+- ресурсный бюджет: single-process локальный runtime.
 
-## 9. Ограничения
+## 9. Почему дизайн закрывает оба трека
 
-### Latency
-- target: < 20–30s
-- fallback: < 10s
+Агентный:
+- контроль переходов оркестратора;
+- прозрачный trace шагов;
+- eval-friendly структура и измеримые constraint checks.
 
-### Cost
-- минимальный (PoC)
-- ограничение токенов
-
-### Reliability
-- Устойчивая деградация: при ошибках система возвращает частичный результат
+Инфраструктурный:
+- предсказуемое деградирование;
+- retries/caching/timeouts;
+- минимальная, но рабочая observability и risk controls.

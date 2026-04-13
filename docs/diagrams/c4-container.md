@@ -1,27 +1,28 @@
-# C4 — Container
+# C4 Container
 
 ```mermaid
 flowchart TB
-    User --> UI[Frontend]
+    User["User"] --> CLI["CLI / API"]
 
-    UI --> API[Backend API]
+    CLI --> ORCH["Orchestrator"]
+    ORCH --> SAFE["Safety Guard"]
+    ORCH --> RET["POI Retriever"]
+    ORCH --> RANK["Ranker"]
+    ORCH --> ROUTE["Route Builder"]
+    ORCH --> EXP["Exporter"]
+    ORCH --> MEM["Memory Store"]
+    ORCH --> OBS["Event Logger"]
 
-    API --> ORCH[Orchestrator]
-    ORCH --> RET[Retriever]
-    ORCH --> ROUTER[Route Builder]
-    ORCH --> RENDER[Renderer]
-    ORCH --> LLM[LLM Adapter]
+    RET --> OSM[("Overpass API")]
+    RET --> CACHE[("Retriever Cache")]
+    RET --> SAMPLE[("Local Sample Data")]
 
-    RET --> OSM[(Overpass API)]
-    ROUTER --> Routing[(Routing API)]
-
-    ORCH --> DB[(Memory / Storage)]
-    ORCH --> LOGS[(Observability)]
+    MEM --> SQLITE[("SQLite runtime/memory.db")]
+    OBS --> LOGS[("logs/events.jsonl")]
+    EXP --> OUT[("outputs/*.md,json,ics")]
 ```
 
-Контейнеры:
-
-Orchestrator — управление логикой
-Retriever — поиск POI
-Router — построение маршрута
-Renderer — финальный ответ
+Контейнерные решения:
+- Orchestrator как точка координации;
+- Retriever имеет multi-source режим (live/cache/sample);
+- Observability и Memory вынесены в отдельные контейнеры для стабильности и тестируемости.
