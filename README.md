@@ -19,18 +19,18 @@ PoC агентной системы для построения прогулоч
 
 ## Архитектура (коротко)
 
-- Backend API: [web/backend/server.py](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/web/backend/server.py)
-- Frontend UI: [web/frontend/index.html](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/web/frontend/index.html)
-- Orchestrator: [src/city_explorer/orchestrator.py](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/src/city_explorer/orchestrator.py)
-- System Design: [docs/system-design.md](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/docs/system-design.md)
-- Governance: [docs/governance.md](/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent/docs/governance.md)
+- Backend API: [web/backend/server.py](web/backend/server.py)
+- Frontend UI: [web/frontend/index.html](web/frontend/index.html)
+- Orchestrator: [src/city_explorer/orchestrator.py](src/city_explorer/orchestrator.py)
+- System Design: [docs/system-design.md](docs/system-design.md)
+- Governance: [docs/governance.md](docs/governance.md)
 
 ## Быстрый старт (готово для асинхронной проверки)
 
 ### Вариант A: Docker Compose (рекомендуется)
 
 ```bash
-cd "/Users/aselkarakuchukova/Desktop/итмо/city-explorer-agent"
+cd city-explorer-agent
 docker compose up --build
 ```
 
