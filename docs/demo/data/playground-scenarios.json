@@ -39,7 +39,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Москва",
+            "name": "Смотровая площадка Панорама, Москва",
             "category": "viewpoint",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -50,7 +50,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Москва",
+            "name": "Парк у набережной, Москва",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -61,7 +61,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Москва",
+            "name": "Пляж и набережная, Москва",
             "category": "beach",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -72,7 +72,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Москва",
+            "name": "Видовая терраса, Москва",
             "category": "viewpoint",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -130,7 +130,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Ленинград",
+            "name": "Музей современного искусства, Санкт-Петербург",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -141,7 +141,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Ленинград",
+            "name": "Камерная художественная галерея, Санкт-Петербург",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -152,7 +152,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Ленинград",
+            "name": "Театральный центр, Санкт-Петербург",
             "category": "theatre",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -163,7 +163,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Ленинград",
+            "name": "Музей истории города, Санкт-Петербург",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -174,7 +174,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Ленинград",
+            "name": "Городская арт-галерея, Санкт-Петербург",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -235,7 +235,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Казань",
+            "name": "Городской сад, Казань",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -246,7 +246,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Казань",
+            "name": "Культурный символ города, Казань",
             "category": "landmark",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -257,7 +257,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Казань",
+            "name": "Кафе у музея, Казань",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -315,7 +315,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Сочи",
+            "name": "Шопинг-пассаж, Сочи",
             "category": "shopping",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -326,7 +326,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Сочи",
+            "name": "Кафе у музея, Сочи",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -337,7 +337,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Сочи",
+            "name": "Историческая достопримечательность, Сочи",
             "category": "landmark",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -348,7 +348,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Сочи",
+            "name": "Городской маркет-холл, Сочи",
             "category": "shopping",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -406,7 +406,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Екатеринбург",
+            "name": "Библиотека в историческом здании, Екатеринбург",
             "category": "library",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -417,7 +417,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Екатеринбург",
+            "name": "Городской исторический музей, Екатеринбург",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -428,7 +428,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Екатеринбург",
+            "name": "Парк у набережной, Екатеринбург",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -439,7 +439,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Екатеринбург",
+            "name": "Библиотека искусств, Екатеринбург",
             "category": "library",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -450,7 +450,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Екатеринбург",
+            "name": "Художественный музей, Екатеринбург",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -509,7 +509,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Новосибирск",
+            "name": "Городской исторический музей, Новосибирск",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -520,7 +520,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Новосибирск",
+            "name": "Парк у набережной, Новосибирск",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -531,7 +531,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Новосибирск",
+            "name": "Городская кофейня, Новосибирск",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -589,7 +589,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Владивосток",
+            "name": "Смотровая точка на холме, Владивосток",
             "category": "viewpoint",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -600,7 +600,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Владивосток",
+            "name": "Городской сад, Владивосток",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -611,7 +611,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Владивосток",
+            "name": "Песчаный пляж, Владивосток",
             "category": "beach",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -622,7 +622,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Владивосток",
+            "name": "Смотровая у реки, Владивосток",
             "category": "viewpoint",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -680,7 +680,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Нижний Новгород",
+            "name": "Национальный музей культуры, Нижний Новгород",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -691,7 +691,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Нижний Новгород",
+            "name": "Галерея локальных авторов, Нижний Новгород",
             "category": "gallery",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -702,7 +702,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Нижний Новгород",
+            "name": "Сцена на площади, Нижний Новгород",
             "category": "theatre",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -713,7 +713,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Нижний Новгород",
+            "name": "Городской исторический музей, Нижний Новгород",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -724,7 +724,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Нижний Новгород",
+            "name": "Галерея современного искусства, Нижний Новгород",
             "category": "gallery",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -783,7 +783,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Самара",
+            "name": "Парк скульптур, Самара",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -794,7 +794,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Самара",
+            "name": "Исторический ансамбль, Самара",
             "category": "landmark",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -805,7 +805,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Самара",
+            "name": "Кофейня Старый город, Самара",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -863,7 +863,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Уфа",
+            "name": "Торговый центр, Уфа",
             "category": "shopping",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -874,7 +874,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Уфа",
+            "name": "Кофейня Старый город, Уфа",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -885,7 +885,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Уфа",
+            "name": "Знаковый городской объект, Уфа",
             "category": "landmark",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -896,7 +896,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Уфа",
+            "name": "Центральный торговый квартал, Уфа",
             "category": "shopping",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -954,7 +954,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Пермь",
+            "name": "Центральная библиотека, Пермь",
             "category": "library",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -965,7 +965,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Пермь",
+            "name": "Музей современного искусства, Пермь",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -976,7 +976,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Пермь",
+            "name": "Городской сад, Пермь",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -987,7 +987,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Пермь",
+            "name": "Научная библиотека, Пермь",
             "category": "library",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -998,7 +998,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Пермь",
+            "name": "Музей истории города, Пермь",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -1057,7 +1057,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Калининград",
+            "name": "Музей современного искусства, Калининград",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -1068,7 +1068,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Калининград",
+            "name": "Городской сад, Калининград",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -1079,7 +1079,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Калининград",
+            "name": "Ремесленная кофейня, Калининград",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -1137,7 +1137,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Ростов-на-Дону",
+            "name": "Панорамная площадка, Ростов-на-Дону",
             "category": "viewpoint",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -1148,7 +1148,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Ростов-на-Дону",
+            "name": "Парк скульптур, Ростов-на-Дону",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -1159,7 +1159,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Ростов-на-Дону",
+            "name": "Пляжный парк, Ростов-на-Дону",
             "category": "beach",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -1170,7 +1170,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Ростов-на-Дону",
+            "name": "Смотровая площадка Панорама, Ростов-на-Дону",
             "category": "viewpoint",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -1228,7 +1228,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Краснодар",
+            "name": "Художественный музей, Краснодар",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -1239,7 +1239,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Краснодар",
+            "name": "Выставочное пространство, Краснодар",
             "category": "gallery",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -1250,7 +1250,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Краснодар",
+            "name": "Городской театр, Краснодар",
             "category": "theatre",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -1261,7 +1261,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Краснодар",
+            "name": "Музей современного искусства, Краснодар",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -1272,7 +1272,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Краснодар",
+            "name": "Камерная художественная галерея, Краснодар",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -1331,7 +1331,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Иркутск",
+            "name": "Ландшафтный парк, Иркутск",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -1342,7 +1342,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Иркутск",
+            "name": "Историческая достопримечательность, Иркутск",
             "category": "landmark",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -1353,7 +1353,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Иркутск",
+            "name": "Кофейня у площади, Иркутск",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -1411,7 +1411,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Улан-Удэ",
+            "name": "Торговая галерея, Улан-Удэ",
             "category": "shopping",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -1422,7 +1422,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Улан-Удэ",
+            "name": "Кофейня у площади, Улан-Удэ",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -1433,7 +1433,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Улан-Удэ",
+            "name": "Архитектурный памятник, Улан-Удэ",
             "category": "landmark",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -1444,7 +1444,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Улан-Удэ",
+            "name": "Шопинг-пассаж, Улан-Удэ",
             "category": "shopping",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -1502,7 +1502,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Томск",
+            "name": "Городская публичная библиотека, Томск",
             "category": "library",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -1513,7 +1513,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Томск",
+            "name": "Национальный музей культуры, Томск",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -1524,7 +1524,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Томск",
+            "name": "Парк скульптур, Томск",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -1535,7 +1535,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Томск",
+            "name": "Библиотека в историческом здании, Томск",
             "category": "library",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -1546,7 +1546,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Томск",
+            "name": "Городской исторический музей, Томск",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -1605,7 +1605,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Тюмень",
+            "name": "Национальный музей культуры, Тюмень",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -1616,7 +1616,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Тюмень",
+            "name": "Парк скульптур, Тюмень",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -1627,7 +1627,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Тюмень",
+            "name": "Кафе у музея, Тюмень",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -1685,7 +1685,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Омск",
+            "name": "Видовая терраса, Омск",
             "category": "viewpoint",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -1696,7 +1696,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Омск",
+            "name": "Ландшафтный парк, Омск",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -1707,7 +1707,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Омск",
+            "name": "Городской пляж, Омск",
             "category": "beach",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -1718,7 +1718,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Омск",
+            "name": "Смотровая точка на холме, Омск",
             "category": "viewpoint",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -1776,7 +1776,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Челябинск",
+            "name": "Музей истории города, Челябинск",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -1787,7 +1787,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Челябинск",
+            "name": "Городская арт-галерея, Челябинск",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -1798,7 +1798,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Челябинск",
+            "name": "Камерный театр, Челябинск",
             "category": "theatre",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -1809,7 +1809,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Челябинск",
+            "name": "Национальный музей культуры, Челябинск",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -1820,7 +1820,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Челябинск",
+            "name": "Галерея локальных авторов, Челябинск",
             "category": "gallery",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -1879,7 +1879,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Берлин",
+            "name": "Центральный парк, Берлин",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -1890,7 +1890,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Берлин",
+            "name": "Знаковый городской объект, Берлин",
             "category": "landmark",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -1901,7 +1901,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Берлин",
+            "name": "Городская кофейня, Берлин",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -1959,7 +1959,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Мюнхен",
+            "name": "Городской маркет-холл, Мюнхен",
             "category": "shopping",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -1970,7 +1970,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Мюнхен",
+            "name": "Городская кофейня, Мюнхен",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -1981,7 +1981,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Мюнхен",
+            "name": "Культурный символ города, Мюнхен",
             "category": "landmark",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -1992,7 +1992,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Мюнхен",
+            "name": "Торговый центр, Мюнхен",
             "category": "shopping",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -2050,7 +2050,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Гамбург",
+            "name": "Библиотека искусств, Гамбург",
             "category": "library",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -2061,7 +2061,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Гамбург",
+            "name": "Художественный музей, Гамбург",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -2072,7 +2072,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Гамбург",
+            "name": "Ландшафтный парк, Гамбург",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -2083,7 +2083,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Гамбург",
+            "name": "Центральная библиотека, Гамбург",
             "category": "library",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -2094,7 +2094,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Гамбург",
+            "name": "Музей современного искусства, Гамбург",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -2153,7 +2153,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Париж",
+            "name": "Художественный музей, Париж",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -2164,7 +2164,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Париж",
+            "name": "Ландшафтный парк, Париж",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -2175,7 +2175,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Париж",
+            "name": "Кофейня Старый город, Париж",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -2233,7 +2233,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Лион",
+            "name": "Смотровая у реки, Лион",
             "category": "viewpoint",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -2244,7 +2244,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Лион",
+            "name": "Центральный парк, Лион",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -2255,7 +2255,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Лион",
+            "name": "Пляжная зона у воды, Лион",
             "category": "beach",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -2266,7 +2266,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Лион",
+            "name": "Панорамная площадка, Лион",
             "category": "viewpoint",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -2324,7 +2324,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Марсель",
+            "name": "Городской исторический музей, Марсель",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -2335,7 +2335,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Марсель",
+            "name": "Галерея современного искусства, Марсель",
             "category": "gallery",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -2346,7 +2346,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Марсель",
+            "name": "Драматический театр, Марсель",
             "category": "theatre",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -2357,7 +2357,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Марсель",
+            "name": "Художественный музей, Марсель",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -2368,7 +2368,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Марсель",
+            "name": "Выставочное пространство, Марсель",
             "category": "gallery",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -2427,7 +2427,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Рим",
+            "name": "Парк у набережной, Рим",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -2438,7 +2438,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Рим",
+            "name": "Архитектурный памятник, Рим",
             "category": "landmark",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -2449,7 +2449,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Рим",
+            "name": "Ремесленная кофейня, Рим",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -2507,7 +2507,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Милан",
+            "name": "Центральный торговый квартал, Милан",
             "category": "shopping",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -2518,7 +2518,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Милан",
+            "name": "Ремесленная кофейня, Милан",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -2529,7 +2529,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Милан",
+            "name": "Исторический ансамбль, Милан",
             "category": "landmark",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -2540,7 +2540,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Милан",
+            "name": "Торговая галерея, Милан",
             "category": "shopping",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -2598,7 +2598,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Неаполь",
+            "name": "Научная библиотека, Неаполь",
             "category": "library",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -2609,7 +2609,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Неаполь",
+            "name": "Музей истории города, Неаполь",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -2620,7 +2620,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Неаполь",
+            "name": "Центральный парк, Неаполь",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -2631,7 +2631,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Неаполь",
+            "name": "Городская публичная библиотека, Неаполь",
             "category": "library",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -2642,7 +2642,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Неаполь",
+            "name": "Национальный музей культуры, Неаполь",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -2701,7 +2701,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Мадрид",
+            "name": "Музей истории города, Мадрид",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -2712,7 +2712,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Мадрид",
+            "name": "Центральный парк, Мадрид",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -2723,7 +2723,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Мадрид",
+            "name": "Кофейня у площади, Мадрид",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -2781,7 +2781,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Барселона",
+            "name": "Смотровая площадка Панорама, Барселона",
             "category": "viewpoint",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -2792,7 +2792,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Барселона",
+            "name": "Парк у набережной, Барселона",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -2803,7 +2803,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Барселона",
+            "name": "Пляж и набережная, Барселона",
             "category": "beach",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -2814,7 +2814,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Барселона",
+            "name": "Видовая терраса, Барселона",
             "category": "viewpoint",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -2872,7 +2872,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Валенсия",
+            "name": "Музей современного искусства, Валенсия",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -2883,7 +2883,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Валенсия",
+            "name": "Камерная художественная галерея, Валенсия",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -2894,7 +2894,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Валенсия",
+            "name": "Театральный центр, Валенсия",
             "category": "theatre",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -2905,7 +2905,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Валенсия",
+            "name": "Музей истории города, Валенсия",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -2916,7 +2916,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Валенсия",
+            "name": "Городская арт-галерея, Валенсия",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -2975,7 +2975,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Лиссабон",
+            "name": "Городской сад, Лиссабон",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -2986,7 +2986,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Лиссабон",
+            "name": "Культурный символ города, Лиссабон",
             "category": "landmark",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -2997,7 +2997,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Лиссабон",
+            "name": "Кафе у музея, Лиссабон",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -3055,7 +3055,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Порту",
+            "name": "Шопинг-пассаж, Порту",
             "category": "shopping",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -3066,7 +3066,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Порту",
+            "name": "Кафе у музея, Порту",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -3077,7 +3077,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Порту",
+            "name": "Историческая достопримечательность, Порту",
             "category": "landmark",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -3088,7 +3088,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Порту",
+            "name": "Городской маркет-холл, Порту",
             "category": "shopping",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -3146,7 +3146,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Лондон",
+            "name": "Библиотека в историческом здании, Лондон",
             "category": "library",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -3157,7 +3157,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Лондон",
+            "name": "Городской исторический музей, Лондон",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -3168,7 +3168,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Лондон",
+            "name": "Парк у набережной, Лондон",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -3179,7 +3179,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Лондон",
+            "name": "Библиотека искусств, Лондон",
             "category": "library",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -3190,7 +3190,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Лондон",
+            "name": "Художественный музей, Лондон",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -3249,7 +3249,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Манчестер",
+            "name": "Городской исторический музей, Манчестер",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -3260,7 +3260,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Манчестер",
+            "name": "Парк у набережной, Манчестер",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -3271,7 +3271,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Манчестер",
+            "name": "Городская кофейня, Манчестер",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -3329,7 +3329,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Эдинбург",
+            "name": "Смотровая точка на холме, Эдинбург",
             "category": "viewpoint",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -3340,7 +3340,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Эдинбург",
+            "name": "Городской сад, Эдинбург",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -3351,7 +3351,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Эдинбург",
+            "name": "Песчаный пляж, Эдинбург",
             "category": "beach",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -3362,7 +3362,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Эдинбург",
+            "name": "Смотровая у реки, Эдинбург",
             "category": "viewpoint",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -3420,7 +3420,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Дублин",
+            "name": "Национальный музей культуры, Дублин",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -3431,7 +3431,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Дублин",
+            "name": "Галерея локальных авторов, Дублин",
             "category": "gallery",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -3442,7 +3442,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Дублин",
+            "name": "Сцена на площади, Дублин",
             "category": "theatre",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -3453,7 +3453,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Дублин",
+            "name": "Городской исторический музей, Дублин",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -3464,7 +3464,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Дублин",
+            "name": "Галерея современного искусства, Дублин",
             "category": "gallery",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -3523,7 +3523,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Амстердам",
+            "name": "Парк скульптур, Амстердам",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -3534,7 +3534,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Амстердам",
+            "name": "Исторический ансамбль, Амстердам",
             "category": "landmark",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -3545,7 +3545,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Амстердам",
+            "name": "Кофейня Старый город, Амстердам",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -3603,7 +3603,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Роттердам",
+            "name": "Торговый центр, Роттердам",
             "category": "shopping",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -3614,7 +3614,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Роттердам",
+            "name": "Кофейня Старый город, Роттердам",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -3625,7 +3625,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Роттердам",
+            "name": "Знаковый городской объект, Роттердам",
             "category": "landmark",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -3636,7 +3636,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Роттердам",
+            "name": "Центральный торговый квартал, Роттердам",
             "category": "shopping",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -3694,7 +3694,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Брюссель",
+            "name": "Центральная библиотека, Брюссель",
             "category": "library",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -3705,7 +3705,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Брюссель",
+            "name": "Музей современного искусства, Брюссель",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -3716,7 +3716,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Брюссель",
+            "name": "Городской сад, Брюссель",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -3727,7 +3727,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Брюссель",
+            "name": "Научная библиотека, Брюссель",
             "category": "library",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -3738,7 +3738,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Брюссель",
+            "name": "Музей истории города, Брюссель",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -3797,7 +3797,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Вена",
+            "name": "Музей современного искусства, Вена",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -3808,7 +3808,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Вена",
+            "name": "Городской сад, Вена",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -3819,7 +3819,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Вена",
+            "name": "Ремесленная кофейня, Вена",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -3877,7 +3877,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Прага",
+            "name": "Панорамная площадка, Прага",
             "category": "viewpoint",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -3888,7 +3888,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Прага",
+            "name": "Парк скульптур, Прага",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -3899,7 +3899,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Прага",
+            "name": "Пляжный парк, Прага",
             "category": "beach",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -3910,7 +3910,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Прага",
+            "name": "Смотровая площадка Панорама, Прага",
             "category": "viewpoint",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -3968,7 +3968,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Будапешт",
+            "name": "Художественный музей, Будапешт",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -3979,7 +3979,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Будапешт",
+            "name": "Выставочное пространство, Будапешт",
             "category": "gallery",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -3990,7 +3990,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Будапешт",
+            "name": "Городской театр, Будапешт",
             "category": "theatre",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -4001,7 +4001,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Будапешт",
+            "name": "Музей современного искусства, Будапешт",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -4012,7 +4012,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Будапешт",
+            "name": "Камерная художественная галерея, Будапешт",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -4071,7 +4071,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Варшава",
+            "name": "Ландшафтный парк, Варшава",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -4082,7 +4082,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Варшава",
+            "name": "Историческая достопримечательность, Варшава",
             "category": "landmark",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -4093,7 +4093,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Варшава",
+            "name": "Кофейня у площади, Варшава",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -4151,7 +4151,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Краков",
+            "name": "Торговая галерея, Краков",
             "category": "shopping",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -4162,7 +4162,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Краков",
+            "name": "Кофейня у площади, Краков",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -4173,7 +4173,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Краков",
+            "name": "Архитектурный памятник, Краков",
             "category": "landmark",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -4184,7 +4184,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Краков",
+            "name": "Шопинг-пассаж, Краков",
             "category": "shopping",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -4242,7 +4242,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Стокгольм",
+            "name": "Городская публичная библиотека, Стокгольм",
             "category": "library",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -4253,7 +4253,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Стокгольм",
+            "name": "Национальный музей культуры, Стокгольм",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -4264,7 +4264,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Стокгольм",
+            "name": "Парк скульптур, Стокгольм",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -4275,7 +4275,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Стокгольм",
+            "name": "Библиотека в историческом здании, Стокгольм",
             "category": "library",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -4286,7 +4286,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Стокгольм",
+            "name": "Городской исторический музей, Стокгольм",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -4345,7 +4345,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Осло",
+            "name": "Национальный музей культуры, Осло",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -4356,7 +4356,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Осло",
+            "name": "Парк скульптур, Осло",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -4367,7 +4367,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Осло",
+            "name": "Кафе у музея, Осло",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -4425,7 +4425,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Копенгаген",
+            "name": "Видовая терраса, Копенгаген",
             "category": "viewpoint",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -4436,7 +4436,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Копенгаген",
+            "name": "Ландшафтный парк, Копенгаген",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -4447,7 +4447,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Копенгаген",
+            "name": "Городской пляж, Копенгаген",
             "category": "beach",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -4458,7 +4458,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Копенгаген",
+            "name": "Смотровая точка на холме, Копенгаген",
             "category": "viewpoint",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -4516,7 +4516,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Хельсинки",
+            "name": "Музей истории города, Хельсинки",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -4527,7 +4527,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Хельсинки",
+            "name": "Городская арт-галерея, Хельсинки",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -4538,7 +4538,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Хельсинки",
+            "name": "Камерный театр, Хельсинки",
             "category": "theatre",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -4549,7 +4549,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Хельсинки",
+            "name": "Национальный музей культуры, Хельсинки",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -4560,7 +4560,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Хельсинки",
+            "name": "Галерея локальных авторов, Хельсинки",
             "category": "gallery",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -4619,7 +4619,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Рига",
+            "name": "Центральный парк, Рига",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -4630,7 +4630,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Рига",
+            "name": "Знаковый городской объект, Рига",
             "category": "landmark",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -4641,7 +4641,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Рига",
+            "name": "Городская кофейня, Рига",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -4699,7 +4699,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Таллин",
+            "name": "Городской маркет-холл, Таллин",
             "category": "shopping",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -4710,7 +4710,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Таллин",
+            "name": "Городская кофейня, Таллин",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -4721,7 +4721,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Таллин",
+            "name": "Культурный символ города, Таллин",
             "category": "landmark",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -4732,7 +4732,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Таллин",
+            "name": "Торговый центр, Таллин",
             "category": "shopping",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -4790,7 +4790,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Вильнюс",
+            "name": "Библиотека искусств, Вильнюс",
             "category": "library",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -4801,7 +4801,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Вильнюс",
+            "name": "Художественный музей, Вильнюс",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -4812,7 +4812,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Вильнюс",
+            "name": "Ландшафтный парк, Вильнюс",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -4823,7 +4823,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Вильнюс",
+            "name": "Центральная библиотека, Вильнюс",
             "category": "library",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -4834,7 +4834,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Вильнюс",
+            "name": "Музей современного искусства, Вильнюс",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -4893,7 +4893,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Афины",
+            "name": "Художественный музей, Афины",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -4904,7 +4904,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Афины",
+            "name": "Ландшафтный парк, Афины",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -4915,7 +4915,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Афины",
+            "name": "Кофейня Старый город, Афины",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -4973,7 +4973,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Стамбул",
+            "name": "Смотровая у реки, Стамбул",
             "category": "viewpoint",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -4984,7 +4984,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Стамбул",
+            "name": "Центральный парк, Стамбул",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -4995,7 +4995,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Стамбул",
+            "name": "Пляжная зона у воды, Стамбул",
             "category": "beach",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -5006,7 +5006,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Стамбул",
+            "name": "Панорамная площадка, Стамбул",
             "category": "viewpoint",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -5064,7 +5064,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Анкара",
+            "name": "Городской исторический музей, Анкара",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -5075,7 +5075,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Анкара",
+            "name": "Галерея современного искусства, Анкара",
             "category": "gallery",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -5086,7 +5086,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Анкара",
+            "name": "Драматический театр, Анкара",
             "category": "theatre",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -5097,7 +5097,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Анкара",
+            "name": "Художественный музей, Анкара",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -5108,7 +5108,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Анкара",
+            "name": "Выставочное пространство, Анкара",
             "category": "gallery",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -5167,7 +5167,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Тбилиси",
+            "name": "Парк у набережной, Тбилиси",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -5178,7 +5178,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Тбилиси",
+            "name": "Архитектурный памятник, Тбилиси",
             "category": "landmark",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -5189,7 +5189,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Тбилиси",
+            "name": "Ремесленная кофейня, Тбилиси",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -5247,7 +5247,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Ереван",
+            "name": "Центральный торговый квартал, Ереван",
             "category": "shopping",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -5258,7 +5258,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Ереван",
+            "name": "Ремесленная кофейня, Ереван",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -5269,7 +5269,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Ереван",
+            "name": "Исторический ансамбль, Ереван",
             "category": "landmark",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -5280,7 +5280,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Ереван",
+            "name": "Торговая галерея, Ереван",
             "category": "shopping",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -5338,7 +5338,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Баку",
+            "name": "Научная библиотека, Баку",
             "category": "library",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -5349,7 +5349,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Баку",
+            "name": "Музей истории города, Баку",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -5360,7 +5360,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Баку",
+            "name": "Центральный парк, Баку",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -5371,7 +5371,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Баку",
+            "name": "Городская публичная библиотека, Баку",
             "category": "library",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -5382,7 +5382,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Баку",
+            "name": "Национальный музей культуры, Баку",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -5441,7 +5441,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Дубай",
+            "name": "Музей истории города, Дубай",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -5452,7 +5452,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Дубай",
+            "name": "Центральный парк, Дубай",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -5463,7 +5463,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Дубай",
+            "name": "Кофейня у площади, Дубай",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -5521,7 +5521,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Абу-Даби",
+            "name": "Смотровая площадка Панорама, Абу-Даби",
             "category": "viewpoint",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -5532,7 +5532,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Абу-Даби",
+            "name": "Парк у набережной, Абу-Даби",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -5543,7 +5543,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Абу-Даби",
+            "name": "Пляж и набережная, Абу-Даби",
             "category": "beach",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -5554,7 +5554,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Абу-Даби",
+            "name": "Видовая терраса, Абу-Даби",
             "category": "viewpoint",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -5612,7 +5612,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Доха",
+            "name": "Музей современного искусства, Доха",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -5623,7 +5623,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Доха",
+            "name": "Камерная художественная галерея, Доха",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -5634,7 +5634,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Доха",
+            "name": "Театральный центр, Доха",
             "category": "theatre",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -5645,7 +5645,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Доха",
+            "name": "Музей истории города, Доха",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -5656,7 +5656,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Доха",
+            "name": "Городская арт-галерея, Доха",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -5715,7 +5715,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Тель-Авив",
+            "name": "Городской сад, Тель-Авив",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
@@ -5726,7 +5726,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Тель-Авив",
+            "name": "Культурный символ города, Тель-Авив",
             "category": "landmark",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -5737,7 +5737,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Тель-Авив",
+            "name": "Кафе у музея, Тель-Авив",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -5795,7 +5795,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Иерусалим",
+            "name": "Шопинг-пассаж, Иерусалим",
             "category": "shopping",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 2,
@@ -5806,7 +5806,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Иерусалим",
+            "name": "Кафе у музея, Иерусалим",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -5817,7 +5817,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Иерусалим",
+            "name": "Историческая достопримечательность, Иерусалим",
             "category": "landmark",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -5828,7 +5828,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Иерусалим",
+            "name": "Городской маркет-холл, Иерусалим",
             "category": "shopping",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -5886,7 +5886,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Каир",
+            "name": "Библиотека в историческом здании, Каир",
             "category": "library",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 3,
@@ -5897,7 +5897,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Каир",
+            "name": "Городской исторический музей, Каир",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -5908,7 +5908,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Каир",
+            "name": "Парк у набережной, Каир",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -5919,7 +5919,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Каир",
+            "name": "Библиотека искусств, Каир",
             "category": "library",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -5930,7 +5930,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Каир",
+            "name": "Художественный музей, Каир",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -5989,7 +5989,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Марракеш",
+            "name": "Городской исторический музей, Марракеш",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 4,
@@ -6000,7 +6000,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Марракеш",
+            "name": "Парк у набережной, Марракеш",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -6011,7 +6011,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Марракеш",
+            "name": "Городская кофейня, Марракеш",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -6069,7 +6069,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Кейптаун",
+            "name": "Смотровая точка на холме, Кейптаун",
             "category": "viewpoint",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 5,
@@ -6080,7 +6080,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Кейптаун",
+            "name": "Городской сад, Кейптаун",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -6091,7 +6091,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Кейптаун",
+            "name": "Песчаный пляж, Кейптаун",
             "category": "beach",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -6102,7 +6102,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Кейптаун",
+            "name": "Смотровая у реки, Кейптаун",
             "category": "viewpoint",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -6160,7 +6160,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Найроби",
+            "name": "Национальный музей культуры, Найроби",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 6,
@@ -6171,7 +6171,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Найроби",
+            "name": "Галерея локальных авторов, Найроби",
             "category": "gallery",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -6182,7 +6182,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Найроби",
+            "name": "Сцена на площади, Найроби",
             "category": "theatre",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -6193,7 +6193,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Найроби",
+            "name": "Городской исторический музей, Найроби",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -6204,7 +6204,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Найроби",
+            "name": "Галерея современного искусства, Найроби",
             "category": "gallery",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -6263,7 +6263,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Нью-Йорк",
+            "name": "Парк скульптур, Нью-Йорк",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 7,
@@ -6274,7 +6274,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Нью-Йорк",
+            "name": "Исторический ансамбль, Нью-Йорк",
             "category": "landmark",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -6285,7 +6285,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Нью-Йорк",
+            "name": "Кофейня Старый город, Нью-Йорк",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -6343,7 +6343,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Бостон",
+            "name": "Торговый центр, Бостон",
             "category": "shopping",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 8,
@@ -6354,7 +6354,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Бостон",
+            "name": "Кофейня Старый город, Бостон",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -6365,7 +6365,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Бостон",
+            "name": "Знаковый городской объект, Бостон",
             "category": "landmark",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -6376,7 +6376,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Бостон",
+            "name": "Центральный торговый квартал, Бостон",
             "category": "shopping",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -6434,7 +6434,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Чикаго",
+            "name": "Центральная библиотека, Чикаго",
             "category": "library",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 9,
@@ -6445,7 +6445,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Чикаго",
+            "name": "Музей современного искусства, Чикаго",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -6456,7 +6456,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Чикаго",
+            "name": "Городской сад, Чикаго",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -6467,7 +6467,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Чикаго",
+            "name": "Научная библиотека, Чикаго",
             "category": "library",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -6478,7 +6478,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Чикаго",
+            "name": "Музей истории города, Чикаго",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -6537,7 +6537,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Сан-Франциско",
+            "name": "Музей современного искусства, Сан-Франциско",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 2,
@@ -6548,7 +6548,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Сан-Франциско",
+            "name": "Городской сад, Сан-Франциско",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -6559,7 +6559,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Сан-Франциско",
+            "name": "Ремесленная кофейня, Сан-Франциско",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -6617,7 +6617,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Лос-Анджелес",
+            "name": "Панорамная площадка, Лос-Анджелес",
             "category": "viewpoint",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 3,
@@ -6628,7 +6628,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Лос-Анджелес",
+            "name": "Парк скульптур, Лос-Анджелес",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -6639,7 +6639,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Лос-Анджелес",
+            "name": "Пляжный парк, Лос-Анджелес",
             "category": "beach",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -6650,7 +6650,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Лос-Анджелес",
+            "name": "Смотровая площадка Панорама, Лос-Анджелес",
             "category": "viewpoint",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -6708,7 +6708,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Сиэтл",
+            "name": "Художественный музей, Сиэтл",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 4,
@@ -6719,7 +6719,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Сиэтл",
+            "name": "Выставочное пространство, Сиэтл",
             "category": "gallery",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -6730,7 +6730,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Сиэтл",
+            "name": "Городской театр, Сиэтл",
             "category": "theatre",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -6741,7 +6741,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Сиэтл",
+            "name": "Музей современного искусства, Сиэтл",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -6752,7 +6752,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Сиэтл",
+            "name": "Камерная художественная галерея, Сиэтл",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -6811,7 +6811,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Торонто",
+            "name": "Ландшафтный парк, Торонто",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 5,
@@ -6822,7 +6822,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Торонто",
+            "name": "Историческая достопримечательность, Торонто",
             "category": "landmark",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -6833,7 +6833,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Торонто",
+            "name": "Кофейня у площади, Торонто",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -6891,7 +6891,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Ванкувер",
+            "name": "Торговая галерея, Ванкувер",
             "category": "shopping",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 6,
@@ -6902,7 +6902,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Ванкувер",
+            "name": "Кофейня у площади, Ванкувер",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -6913,7 +6913,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Ванкувер",
+            "name": "Архитектурный памятник, Ванкувер",
             "category": "landmark",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -6924,7 +6924,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Ванкувер",
+            "name": "Шопинг-пассаж, Ванкувер",
             "category": "shopping",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -6982,7 +6982,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Монреаль",
+            "name": "Городская публичная библиотека, Монреаль",
             "category": "library",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 7,
@@ -6993,7 +6993,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Монреаль",
+            "name": "Национальный музей культуры, Монреаль",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -7004,7 +7004,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Монреаль",
+            "name": "Парк скульптур, Монреаль",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -7015,7 +7015,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Монреаль",
+            "name": "Библиотека в историческом здании, Монреаль",
             "category": "library",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -7026,7 +7026,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Монреаль",
+            "name": "Городской исторический музей, Монреаль",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -7085,7 +7085,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Мехико",
+            "name": "Национальный музей культуры, Мехико",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 8,
@@ -7096,7 +7096,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Мехико",
+            "name": "Парк скульптур, Мехико",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -7107,7 +7107,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Мехико",
+            "name": "Кафе у музея, Мехико",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -7165,7 +7165,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Сан-Паулу",
+            "name": "Видовая терраса, Сан-Паулу",
             "category": "viewpoint",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 9,
@@ -7176,7 +7176,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Сан-Паулу",
+            "name": "Ландшафтный парк, Сан-Паулу",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -7187,7 +7187,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Сан-Паулу",
+            "name": "Городской пляж, Сан-Паулу",
             "category": "beach",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -7198,7 +7198,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Сан-Паулу",
+            "name": "Смотровая точка на холме, Сан-Паулу",
             "category": "viewpoint",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -7256,7 +7256,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Рио-де-Жанейро",
+            "name": "Музей истории города, Рио-де-Жанейро",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 2,
@@ -7267,7 +7267,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Рио-де-Жанейро",
+            "name": "Городская арт-галерея, Рио-де-Жанейро",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -7278,7 +7278,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Рио-де-Жанейро",
+            "name": "Камерный театр, Рио-де-Жанейро",
             "category": "theatre",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -7289,7 +7289,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Рио-де-Жанейро",
+            "name": "Национальный музей культуры, Рио-де-Жанейро",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -7300,7 +7300,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Рио-де-Жанейро",
+            "name": "Галерея локальных авторов, Рио-де-Жанейро",
             "category": "gallery",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -7359,7 +7359,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Буэнос-Айрес",
+            "name": "Центральный парк, Буэнос-Айрес",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 3,
@@ -7370,7 +7370,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Буэнос-Айрес",
+            "name": "Знаковый городской объект, Буэнос-Айрес",
             "category": "landmark",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -7381,7 +7381,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Буэнос-Айрес",
+            "name": "Городская кофейня, Буэнос-Айрес",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -7439,7 +7439,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Сантьяго",
+            "name": "Городской маркет-холл, Сантьяго",
             "category": "shopping",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 4,
@@ -7450,7 +7450,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Сантьяго",
+            "name": "Городская кофейня, Сантьяго",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -7461,7 +7461,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Сантьяго",
+            "name": "Культурный символ города, Сантьяго",
             "category": "landmark",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -7472,7 +7472,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Сантьяго",
+            "name": "Торговый центр, Сантьяго",
             "category": "shopping",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -7530,7 +7530,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Лима",
+            "name": "Библиотека искусств, Лима",
             "category": "library",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 5,
@@ -7541,7 +7541,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Лима",
+            "name": "Художественный музей, Лима",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -7552,7 +7552,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Лима",
+            "name": "Ландшафтный парк, Лима",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -7563,7 +7563,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Лима",
+            "name": "Центральная библиотека, Лима",
             "category": "library",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -7574,7 +7574,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Лима",
+            "name": "Музей современного искусства, Лима",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -7633,7 +7633,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Богота",
+            "name": "Художественный музей, Богота",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 6,
@@ -7644,7 +7644,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Богота",
+            "name": "Ландшафтный парк, Богота",
             "category": "park",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -7655,7 +7655,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Богота",
+            "name": "Кофейня Старый город, Богота",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -7713,7 +7713,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Токио",
+            "name": "Смотровая у реки, Токио",
             "category": "viewpoint",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 7,
@@ -7724,7 +7724,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Токио",
+            "name": "Центральный парк, Токио",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -7735,7 +7735,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Токио",
+            "name": "Пляжная зона у воды, Токио",
             "category": "beach",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -7746,7 +7746,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Токио",
+            "name": "Панорамная площадка, Токио",
             "category": "viewpoint",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -7804,7 +7804,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Киото",
+            "name": "Городской исторический музей, Киото",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 8,
@@ -7815,7 +7815,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Киото",
+            "name": "Галерея современного искусства, Киото",
             "category": "gallery",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -7826,7 +7826,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Киото",
+            "name": "Драматический театр, Киото",
             "category": "theatre",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -7837,7 +7837,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Киото",
+            "name": "Художественный музей, Киото",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -7848,7 +7848,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Киото",
+            "name": "Выставочное пространство, Киото",
             "category": "gallery",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -7907,7 +7907,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Сеул",
+            "name": "Парк у набережной, Сеул",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 9,
@@ -7918,7 +7918,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Сеул",
+            "name": "Архитектурный памятник, Сеул",
             "category": "landmark",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -7929,7 +7929,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Сеул",
+            "name": "Ремесленная кофейня, Сеул",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -7987,7 +7987,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Пусан",
+            "name": "Центральный торговый квартал, Пусан",
             "category": "shopping",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 2,
@@ -7998,7 +7998,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Пусан",
+            "name": "Ремесленная кофейня, Пусан",
             "category": "cafe",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -8009,7 +8009,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Пусан",
+            "name": "Исторический ансамбль, Пусан",
             "category": "landmark",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -8020,7 +8020,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Пусан",
+            "name": "Торговая галерея, Пусан",
             "category": "shopping",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -8078,7 +8078,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Пекин",
+            "name": "Научная библиотека, Пекин",
             "category": "library",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 3,
@@ -8089,7 +8089,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Пекин",
+            "name": "Музей истории города, Пекин",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -8100,7 +8100,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Пекин",
+            "name": "Центральный парк, Пекин",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -8111,7 +8111,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Пекин",
+            "name": "Городская публичная библиотека, Пекин",
             "category": "library",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -8122,7 +8122,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Пекин",
+            "name": "Национальный музей культуры, Пекин",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -8181,7 +8181,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Шанхай",
+            "name": "Музей истории города, Шанхай",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 4,
@@ -8192,7 +8192,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Шанхай",
+            "name": "Центральный парк, Шанхай",
             "category": "park",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -8203,7 +8203,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Шанхай",
+            "name": "Кофейня у площади, Шанхай",
             "category": "cafe",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -8261,7 +8261,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Гонконг",
+            "name": "Смотровая площадка Панорама, Гонконг",
             "category": "viewpoint",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 5,
@@ -8272,7 +8272,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Гонконг",
+            "name": "Парк у набережной, Гонконг",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -8283,7 +8283,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Гонконг",
+            "name": "Пляж и набережная, Гонконг",
             "category": "beach",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -8294,7 +8294,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Гонконг",
+            "name": "Видовая терраса, Гонконг",
             "category": "viewpoint",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -8352,7 +8352,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Сингапур",
+            "name": "Музей современного искусства, Сингапур",
             "category": "museum",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 6,
@@ -8363,7 +8363,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Сингапур",
+            "name": "Камерная художественная галерея, Сингапур",
             "category": "gallery",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -8374,7 +8374,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Сингапур",
+            "name": "Театральный центр, Сингапур",
             "category": "theatre",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -8385,7 +8385,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Сингапур",
+            "name": "Музей истории города, Сингапур",
             "category": "museum",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -8396,7 +8396,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Сингапур",
+            "name": "Городская арт-галерея, Сингапур",
             "category": "gallery",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -8455,7 +8455,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Бангкок",
+            "name": "Городской сад, Бангкок",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 7,
@@ -8466,7 +8466,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Бангкок",
+            "name": "Культурный символ города, Бангкок",
             "category": "landmark",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -8477,7 +8477,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Бангкок",
+            "name": "Кафе у музея, Бангкок",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -8535,7 +8535,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Куала-Лумпур",
+            "name": "Шопинг-пассаж, Куала-Лумпур",
             "category": "shopping",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 8,
@@ -8546,7 +8546,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Куала-Лумпур",
+            "name": "Кафе у музея, Куала-Лумпур",
             "category": "cafe",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -8557,7 +8557,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Куала-Лумпур",
+            "name": "Историческая достопримечательность, Куала-Лумпур",
             "category": "landmark",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -8568,7 +8568,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Куала-Лумпур",
+            "name": "Городской маркет-холл, Куала-Лумпур",
             "category": "shopping",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -8626,7 +8626,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Библиотека 1 — Джакарта",
+            "name": "Библиотека в историческом здании, Джакарта",
             "category": "library",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 9,
@@ -8637,7 +8637,7 @@
           },
           {
             "order": 2,
-            "name": "Музей 2 — Джакарта",
+            "name": "Городской исторический музей, Джакарта",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -8648,7 +8648,7 @@
           },
           {
             "order": 3,
-            "name": "Парк 3 — Джакарта",
+            "name": "Парк у набережной, Джакарта",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -8659,7 +8659,7 @@
           },
           {
             "order": 4,
-            "name": "Библиотека 4 — Джакарта",
+            "name": "Библиотека искусств, Джакарта",
             "category": "library",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -8670,7 +8670,7 @@
           },
           {
             "order": 5,
-            "name": "Музей 5 — Джакарта",
+            "name": "Художественный музей, Джакарта",
             "category": "museum",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -8729,7 +8729,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Бали",
+            "name": "Городской исторический музей, Бали",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 2,
@@ -8740,7 +8740,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Бали",
+            "name": "Парк у набережной, Бали",
             "category": "park",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -8751,7 +8751,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Бали",
+            "name": "Городская кофейня, Бали",
             "category": "cafe",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -8809,7 +8809,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Смотровая 1 — Сидней",
+            "name": "Смотровая точка на холме, Сидней",
             "category": "viewpoint",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 3,
@@ -8820,7 +8820,7 @@
           },
           {
             "order": 2,
-            "name": "Парк 2 — Сидней",
+            "name": "Городской сад, Сидней",
             "category": "park",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -8831,7 +8831,7 @@
           },
           {
             "order": 3,
-            "name": "Пляж 3 — Сидней",
+            "name": "Песчаный пляж, Сидней",
             "category": "beach",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -8842,7 +8842,7 @@
           },
           {
             "order": 4,
-            "name": "Смотровая 4 — Сидней",
+            "name": "Смотровая у реки, Сидней",
             "category": "viewpoint",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -8900,7 +8900,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Музей 1 — Мельбурн",
+            "name": "Национальный музей культуры, Мельбурн",
             "category": "museum",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 4,
@@ -8911,7 +8911,7 @@
           },
           {
             "order": 2,
-            "name": "Галерея 2 — Мельбурн",
+            "name": "Галерея локальных авторов, Мельбурн",
             "category": "gallery",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -8922,7 +8922,7 @@
           },
           {
             "order": 3,
-            "name": "Театр 3 — Мельбурн",
+            "name": "Сцена на площади, Мельбурн",
             "category": "theatre",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -8933,7 +8933,7 @@
           },
           {
             "order": 4,
-            "name": "Музей 4 — Мельбурн",
+            "name": "Городской исторический музей, Мельбурн",
             "category": "museum",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -8944,7 +8944,7 @@
           },
           {
             "order": 5,
-            "name": "Галерея 5 — Мельбурн",
+            "name": "Галерея современного искусства, Мельбурн",
             "category": "gallery",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -9003,7 +9003,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Парк 1 — Окленд",
+            "name": "Парк скульптур, Окленд",
             "category": "park",
             "distance_km_from_prev": 1.13,
             "eta_minutes_from_prev": 5,
@@ -9014,7 +9014,7 @@
           },
           {
             "order": 2,
-            "name": "Место 2 — Окленд",
+            "name": "Исторический ансамбль, Окленд",
             "category": "landmark",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -9025,7 +9025,7 @@
           },
           {
             "order": 3,
-            "name": "Кафе 3 — Окленд",
+            "name": "Кофейня Старый город, Окленд",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -9083,7 +9083,7 @@
         "stops": [
           {
             "order": 1,
-            "name": "Шопинг 1 — Веллингтон",
+            "name": "Торговый центр, Веллингтон",
             "category": "shopping",
             "distance_km_from_prev": 0.25,
             "eta_minutes_from_prev": 6,
@@ -9094,7 +9094,7 @@
           },
           {
             "order": 2,
-            "name": "Кафе 2 — Веллингтон",
+            "name": "Кофейня Старый город, Веллингтон",
             "category": "cafe",
             "distance_km_from_prev": 0.47,
             "eta_minutes_from_prev": 7,
@@ -9105,7 +9105,7 @@
           },
           {
             "order": 3,
-            "name": "Место 3 — Веллингтон",
+            "name": "Знаковый городской объект, Веллингтон",
             "category": "landmark",
             "distance_km_from_prev": 0.69,
             "eta_minutes_from_prev": 8,
@@ -9116,7 +9116,7 @@
           },
           {
             "order": 4,
-            "name": "Шопинг 4 — Веллингтон",
+            "name": "Центральный торговый квартал, Веллингтон",
             "category": "shopping",
             "distance_km_from_prev": 0.91,
             "eta_minutes_from_prev": 9,
