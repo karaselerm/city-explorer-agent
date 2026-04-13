@@ -2,8 +2,6 @@
 
 PoC агентной системы для построения прогулочных маршрутов по городу (2-4 часа) с учетом ограничений пользователя, fallback-логики и наблюдаемости.
 
-## Для ментора (быстрый вход)
-
 Если хотите сразу посмотреть демо без запуска контейнеров, откройте:
 
 - Витрина: [https://karaselerm.github.io/city-explorer-agent/demo/](https://karaselerm.github.io/city-explorer-agent/demo/)
@@ -87,45 +85,6 @@ python3 run_city_explorer.py \
 uv run pytest
 ```
 
-## Деплой (роскошный максимум)
-
-### Быстрый публичный URL через tunnel (самый быстрый путь перед защитой)
-
-После `docker compose up --build`:
-
-```bash
-cloudflared tunnel --url http://localhost:8010
-```
-
-или
-
-```bash
-ngrok http 8010
-```
-
-Это дает публичный URL, которым можно сразу делиться с ментором.
-
-### Постоянный деплой
-
-1. Запушить репозиторий на GitHub.
-2. Развернуть `Dockerfile.backend` как Web Service (Render/Railway/Fly).
-3. Проверить `GET /api/health`.
-4. Для UI есть два пути:
-- либо использовать тот же backend URL (backend уже отдает `web/frontend`);
-- либо отдельно поднять `Dockerfile.frontend` и проксировать `/api` на backend.
-
-### Статические HTML-примеры в GitHub Pages
-
-Если нужно просто показать результат без запуска контейнеров:
-
-1. Включить GitHub Pages для репозитория:
-- `Settings -> Pages -> Build and deployment`
-- `Source: GitHub Actions`
-2. Открыть витрину:
-- `https://karaselerm.github.io/city-explorer-agent/demo/`
-
-В репозитории уже лежат готовые страницы:
-- `docs/demo/playground.html` (интерактивная песочница: реальные API-ответы для 10 городов, переключатели стиля/транспорта/категорий)
 ## Структура репозитория
 
 ```text
