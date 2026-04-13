@@ -240,7 +240,7 @@ function bindEvents() {
 }
 
 async function bootstrap() {
-  byId("status").textContent = "Загрузка 100 сценариев...";
+  byId("status").textContent = "Загрузка сценариев...";
   const res = await fetch(SCENARIOS_FILE);
   if (!res.ok) {
     throw new Error(`не удалось загрузить файл сценариев (${res.status})`);
@@ -253,6 +253,7 @@ async function bootstrap() {
   if (!Array.isArray(allScenarios) || allScenarios.length === 0) {
     throw new Error("файл сценариев пуст");
   }
+  byId("status").textContent = "Загружено сценариев: " + allScenarios.length;
 
   renderCategoryChips("must-chips", "must_category");
   renderCategoryChips("avoid-chips", "avoid_category");
