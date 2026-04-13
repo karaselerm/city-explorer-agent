@@ -61,19 +61,10 @@
 - лимит остановок маршрута: `<=6`;
 - ограниченный execution flow без рекурсивных циклов.
 
-## 4. Incident response (PoC-уровень)
+## 4. Incident response 
 
 1. Обнаружение: рост `tool_errors`/`tool_timeouts` или частые fallback.
 2. Изоляция: временное отключение live retriever, переход в sample-mode.
 3. Восстановление: проверка API доступности, возвращение live-режима.
 4. Пост-мортем: анализ trace/logs, фиксация root cause и обновление risk register.
 
-## 5. Соответствие трекам
-
-Агентный трек:
-- контроль корректности решений агента через trace и constraint checks;
-- failover-поведение и explainability маршрута.
-
-Инфраструктурный трек:
-- надежная деградация при API-сбоях;
-- наблюдаемость и операционный контроль latency/errors/fallback.
